@@ -6,16 +6,13 @@ int sum_multiplies(int num) {
 
 
 
-	int maxNum = 1000;
 	int minNum = 1;
 	int sum = 0;
 
 	if (num < minNum) {
 		return NULL;
 	}
-	else if (num > maxNum) {
-		return NULL;
-	}
+
 
 	int i = 1;
 
