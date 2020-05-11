@@ -6,10 +6,9 @@ int main()
 	int testzahl = 20;
 
 
-	for (int i = 1; i <= 20;) {
+	for (int i = 1; i <= 20; ++i) {
 		if (testzahl % i == 0) {
 			kleinsteZahl = testzahl;
-			++i;
 		}
 		else {
 			++testzahl;
